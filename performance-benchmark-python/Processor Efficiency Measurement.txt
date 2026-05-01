@@ -1,0 +1,9 @@
+1. ObjectiveThe goal of this task was to measure the performance gain when switching from sequential execution to parallel execution using Python’s multiprocessing module.  
+
+2. Computation Task DescriptionFor this benchmark, I implemented a Prime Number Counting algorithm. This task is "CPU-bound," meaning it requires heavy mathematical calculations that benefit significantly from multiple CPU cores rather than a single thread.  
+
+3. MethodologySequential Execution: The program calculates the number of primes in a range one by one using a single CPU core.  Parallel Execution: Using the multiprocessing.Pool method, the total workload is split into equal chunks and distributed across all available CPU cores simultaneously.  
+
+4. Performance Results(Note: Please fill in the values below based on the results you see when you run the script I gave you.)CPU Cores Detected: [Insert Number, e.g., 8]Sequential Execution Time: [Insert Time] secondsParallel Execution Time: [Insert Time] seconds
+
+5. Efficiency CalculationsI used the following formulas to determine the system's performance:Speedup ($S$): Measured as the ratio of sequential time to parallel time.Result: [Insert Speedup, e.g., 3.45]x faster.Efficiency ($E$): Measured as the Speedup divided by the number of CPU cores.Result: [Insert Efficiency, e.g., 0.43] (or [Insert %]%).
